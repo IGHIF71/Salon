@@ -7,5 +7,5 @@ export default function App(){
     )
 }
 
-const appDiv = document.getElement("main");
+const appDiv = document.getElementById("main");
 render (<App />, appDiv);
